@@ -1,0 +1,8 @@
+all:
+  .settings:
+    admin_web_dir:          /sf/sf_admin
+    web_debug_web_dir:      /sf/sf_web_debug
+    jquery_web_dir: ""
+    jquery_core:      jquery-ui/jquery-1.4.4.js
+    jquery_ui:      jquery-ui.min.js
+    jquery_ui_css:  ui-themes/smoothness/jquery.ui.all.css

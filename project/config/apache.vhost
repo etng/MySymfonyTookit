@@ -1,0 +1,23 @@
+#NameVirtualHost *
+#Listen 8080 
+#Listen 80
+<VirtualHost *>
+    ServerAdmin etng2004@gmail.com
+    DocumentRoot "D:/works/symfony/example.com/web"
+    DirectoryIndex index.php
+    ServerName example.com
+    ServerAlias www.example.com
+    ErrorLog "D:/works/symfony/example.com/log/error.log"
+    CustomLog "D:/works/symfony/example.com/log/access.log" common
+    <Directory "D:/works/symfony/example.com/web">
+        Options Indexes FollowSymLinks
+        AllowOverride All
+        Order allow,deny
+        Allow from all
+    </Directory>
+   Alias /sf D:/works/symfony/example.com/lib/vendor/symfony/data/web/sf 
+   <Directory "D:/works/symfony/example.com/lib/vendor/symfony/data/web/sf"> 
+      AllowOverride All 
+      Allow from All 
+   </Directory> 
+</VirtualHost>

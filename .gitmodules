@@ -1,0 +1,9 @@
+[submodule "project/plugins/sfThemePlugin"]
+	path = project/plugins/sfThemePlugin
+	url = git://github.com/weaverryan/sfThemePlugin.git
+[submodule "project/plugins/themeTwentytenPlugin"]
+	path = project/plugins/themeTwentytenPlugin
+	url = git://github.com/rafaelgou/themeTwentytenPlugin.git
+[submodule "project/plugins/themeBlueprintPlugin"]
+	path = project/plugins/themeBlueprintPlugin
+	url = git://github.com/rafaelgou/themeBlueprintPlugin.git

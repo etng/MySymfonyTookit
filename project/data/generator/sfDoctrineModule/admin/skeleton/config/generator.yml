@@ -1,0 +1,39 @@
+generator:
+  class: sfDoctrineGenerator
+  param:
+##CONFIG##
+
+    config:
+      actions:
+        valid:
+          label: ~
+          action: ~
+          credentials: [your_credential]
+      fields:
+        valid:
+          label: ~
+          help: ~
+          attributes:
+            class: ~
+            width: ~
+          action: ~
+          credentials: [your_credential]
+      list:
+        table_method: ~
+        sort: [id, desc]
+        max_per_page: ~
+        display: ~
+        hide: ~
+        title: ~
+        batch_actions: ~
+        object_actions: ~
+      filter:
+        display: ~
+        class: ~
+      form:
+        display: ~
+        class: ~
+      edit:
+        title: ~
+      new:
+        title: ~
